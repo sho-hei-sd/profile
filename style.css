@@ -1,18 +1,25 @@
 body {
   background-color: #dadada;
+  background-image: url("images/mountainYosemite.jpg");
+  background-size: cover;
 }
 
 h1 {
   color: #38470b;
 }
 
+p {
+  color: #FFFFFF;
+}
+
 img {
   width: 100px;
-  height: 133px;
+  height: 130px;
+  border-radius: 50%;
 }
 
 .link {
-  color: #ffba92;
+  color: #F4F3EE;
   text-decoration: none;
 }
 
@@ -21,7 +28,7 @@ a:hover {
 }
 
 .card {
-  background-color: white;
+  /*background-color: white;*/
   box-shadow: 2px, 2px, 2px;
   border-radius: 20px;
   margin: 0 auto;
@@ -59,3 +66,4 @@ a:hover {
     width: 300px;
   }
 }
+
